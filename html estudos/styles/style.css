@@ -1,0 +1,199 @@
+/* ==================================================
+   FONTES
+================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+/* ==================================================
+   CONFIGURAÇÕES GERAIS
+================================================== */
+:root {
+    --cor-primaria: #3368A0;    
+    --cor-secundaria: #F2EFE7;
+    --cor-terciaria: #C8DFDB;
+    --cor-hover: #C8DFDB;
+    --cor-rodape: #1A3B5D;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+
+/* ==================================================
+   CABEÇALHO — TODAS AS PÁGINAS
+================================================== */
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__Menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__Menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+
+/* ==================================================
+   PÁGINA PRINCIPAL — index.html
+================================================== */
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+}
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+
+/* ==================================================
+   REDES SOCIAIS — index.html
+================================================== */
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    padding: 21.5px 0;
+
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.apresentacao__links__link:hover {
+    background-color: var(--cor-hover);
+}
+
+
+/* ==================================================
+   CURRÍCULO — curriculo.html
+================================================== */
+
+.apresentacao_curriculo {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+/* Conteúdo do currículo */
+
+.apresentacao__conteudo__curriculo {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apresentacao_curriculo__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 36px;
+}
+
+.apresentacao_curriculo__texto {
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+
+.apresentacao_curriculo__texto__subtitulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* Foto do currículo */
+.apresentacao__imagem {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.apresentacao_curriculo__imagem {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+
+/* ==================================================
+   RODAPÉ — TODAS AS PÁGINAS
+================================================== */
+
+.rodape {
+    padding: 24px;
+    background-color: var(--cor-rodape);
+
+    color: var(--cor-secundaria);
+    text-align: center;
+
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
