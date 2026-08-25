@@ -23,8 +23,13 @@
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+}
+main {
+    flex: 1;
 }
 
 /* =========================
@@ -39,6 +44,8 @@ body {
 
 .cabecalho__Menu {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
 }
 
@@ -90,12 +97,17 @@ body {
     line-height: 1.6;
 }
 .rodape {
+   padding: 10px;
     background-color: var(--cor-rodape);
+
     color: var(--cor-secundaria);
-    align-items: center;
     text-align: center;
-    padding: 10px;
+
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    font-weight: 400;
 }
+
 /* IMAGEM */
 
 .img__cafeteria {
