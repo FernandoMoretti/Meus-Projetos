@@ -47,7 +47,7 @@ body {
 
 .cabecalho__Menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -73,12 +73,12 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -101,7 +101,7 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link {
@@ -119,7 +119,7 @@ body {
 
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -152,12 +152,12 @@ body {
 
 .apresentacao_curriculo__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .apresentacao_curriculo__texto {
     font-family: var(--fonte-secundaria);
-    font-size: 15px;
+    font-size: 1.25rem;
     font-weight: 500;
    
 }
@@ -194,6 +194,6 @@ body {
     text-align: center;
 
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
