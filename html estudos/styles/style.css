@@ -24,8 +24,7 @@
     padding: 0;
 }
 
-body {
-    height: 100vh;
+body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -36,8 +35,8 @@ body {
    CABEÇALHO — TODAS AS PÁGINAS
 ================================================== */
 
-.cabecalho {
-    padding: 2% 0 0 15%;
+.cabecalho{
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__Menu {
@@ -66,7 +65,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -104,11 +103,11 @@ body {
     font-size: 1.5rem;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     padding: 21.5px 0;
 
     border: 2px solid var(--cor-terciaria);
@@ -123,7 +122,7 @@ body {
     font-weight: 600;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
 
@@ -164,20 +163,20 @@ body {
 
 .apresentacao_curriculo__texto__subtitulo {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 
 /* Foto do currículo */
 .apresentacao__imagem {
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: auto;
     border-radius: 10%;
 }
 .apresentacao_curriculo__imagem {
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: auto;
     border-radius: 10%;
 }
 
@@ -186,13 +185,11 @@ body {
    RODAPÉ — TODAS AS PÁGINAS
 ================================================== */
 
-.rodape {
-    padding: 24px;
+.rodape{
+    color: var(--cor-primaria);
     background-color: var(--cor-rodape);
-
-    color: var(--cor-secundaria);
+    padding: 24px;
     text-align: center;
-
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
