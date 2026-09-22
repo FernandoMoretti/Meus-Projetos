@@ -11,7 +11,7 @@
 :root {
     --cor-primaria: #000000;    
     --cor-secundaria: #ffffff;
-    --cor-terciaria: #0044ff;
+    --cor-terciaria: #009df9;
     --cor-hover: #C8DFDB;
     --cor-rodape: #1A3B5D;
 
@@ -171,12 +171,12 @@ body{
 
 /* Foto do currículo */
 .apresentacao__imagem {
-    width: 50%;
+    width: 30%;
     height: auto;
     border-radius: 10%;
 }
 .apresentacao_curriculo__imagem {
-    width: 50%;
+    width: 30%;
     height: auto;
     border-radius: 10%;
 }
@@ -208,6 +208,13 @@ body{
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%; 
+    }
+    .apresentacao__conteudo {
+        width: auto;
+    }
+    .apresentacao__conteudo__curriculo {
+        width: auto;
     }
     .apresentacao_curriculo {
         flex-direction: column-reverse;
